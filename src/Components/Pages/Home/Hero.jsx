@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <section className="w-full h-screen bg-[url('./maingoa.jpg')] bg-no-repeat bg-cover object-cover flex justify-center items-center max-sm:text-center">
+      <section className="w-full h-screen bg-no-repeat bg-cover object-cover flex justify-center items-center max-sm:text-center" style={{backgroundImage: "url(./blurrLesson.png)"}}>
         <div className="text-center text-white flex flex-col gap-5">
           <h2 className="text-6xl text-black max-sm:text-5xl max-sm:ml-5 font-semibold">Learn from the Best.</h2>
           <h3 className="text-7xl max-sm:text-4xl max-sm:ml-5 font-semibold">Learn. Grow. Thrive.</h3>
